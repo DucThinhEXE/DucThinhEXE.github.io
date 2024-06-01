@@ -1,4 +1,38 @@
-{
-  "admin" : "Jiray Software",
-  "verison":"1.0.0"
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hướng Dẫn Sử Dụng JirayTool</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Hướng Dẫn Cách Tải Và Cài Đặt Tool</h1>
+        </header>
+        <main>
+            <section class="download">
+                <h2>Step 1: Tải Xuống Tool </h2>
+                <button id="download-btn">Nhấn Vào Đây Để Tải Tool Bản Mới Nhất</button>
+            </section>
+            <section class="usage">
+                <h2>Step 2: Cách Sử Dụng</h2>
+                <p>Bước 1: Khi mới tải ứng dụng termux bạn cần setup với các lệnh dưới ( mỗi lệnh 1 dòng ) nếu bạn đã setup trước đó thì lần sau vào tool bạn chỉ cần nhập lệnh khởi động tool ở bước 2</p>
+                <ol>
+                    <li>apt update</li>
+                    <li>apt upgrade</li>
+                    <li>pkg install python</li>
+                    <li>termux-setup-storage</li>
+                    <p>Có dòng gì yêu cầu Y/N thì cứ nhấn Y rồi Enter Nhé</p>
+                </ol>
+                <p>Bước 2: Khởi Động Tool Và Chạy Lệnh:</p>
+                <ol>
+                  <li>cd /sdcard/download && python JirayTool.py</li>
+                </ol>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
