@@ -3,22 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Termux Pro</title>
+    <title>Hướng Dẫn Sử Dụng JirayTool</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
+        body {
+            background-color: #282a36;
+            color: #f8f8f2;
+            font-family: 'Roboto', sans-serif;
+        }
+        .container-fluid {
+            padding-top: 20px;
+        }
         .profile-card__name img {
             height: 40px;
+        }
+        td {
+        	color:white;
         }
         .btn svg {
             height: 20px;
         }
-        .text-warning, .text-info, .text-primary, .text-danger {
+        .text-warning {
+            color: #f1fa8c !important;
             font-weight: bold;
         }
+        .text-info {
+            color: #8be9fd !important;
+            font-weight: bold;
+        }
+        .text-primary {
+            color: #6272a4 !important;
+            font-weight: bold;
+        }
+        .text-danger {
+            color: #ff5555 !important;
+            font-weight: bold;
+        }
+        .table thead th, .table tbody td {
+            border: 1px solid #44475a;
+        }
+        .table tbody tr:hover {
+            background-color: #44475a;
+        }
+        .btn-primary {
+            background-color: #6272a4;
+            border-color: #6272a4;
+        }
+        .btn-primary:hover {
+            background-color: #535c91;
+            border-color: #535c91;
+        }
+        .btn-info {
+            background-color: #8be9fd;
+            border-color: #8be9fd;
+        }
+        .btn-info:hover {
+            background-color: #69d5e7;
+            border-color: #69d5e7;
+        }
+        
     </style>
 </head>
 <body>
 <div class="container-fluid">
+		<center>
+            <h5>TẢI TERMUX VERISION MỚI NHẤT </h5>
+        </center>
     <center>
         <div class="d-flex mb-3">
             <div class="d-flex">
@@ -27,7 +77,6 @@
                 </figure>
                 <div class="d-inline-block align-self-center">
                     <div>&nbsp;Termux Pro</div>
-                    <small class="text-muted">&nbsp;&nbsp;ngocbansub.com</small>
                 </div>
             </div>
         </div>
@@ -49,10 +98,6 @@
                     <td>Phiên bản</td>
                     <td><span>0.119.0</span></td>
                 </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                </tr>
                 </tbody>
             </table>
         </div>
@@ -63,16 +108,15 @@
         <div class="d-flex mb-3">
             <div class="d-flex">
                 <figure class="profile-card__name">
-                    <img src="https://i.imgur.com/lh7fnH4.png" alt="logo">
+                    <img src="https://static-00.iconduck.com/assets.00/python-icon-512x509-pb65l7gl.png" alt="logo">
                 </figure>
                 <div class="d-inline-block align-self-center">
-                    <div>&nbsp;Ngocv3.3.py</div>
-                    <small class="text-muted">&nbsp;&nbsp;ngocbansub.com</small>
+                    <div>&nbsp;JirayTool.py</div>
                 </div>
             </div>
         </div>
         <div style="margin: 10px 0;">
-            <a href="https://drive.google.com/file/d/1M-hQep6jfqeeUo07NB29-XTbyGzMXEjj/view?usp=drivesdk" class="btn btn-info btn-block btn-sm" rel="nofollow">
+            <a href="https://drive.google.com/file/d/1gXScaNfOH4EnK0vxcX2B_zSoZu3jr5am/view?usp=sharing" class="btn btn-info btn-block btn-sm" rel="nofollow">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path>
                 </svg> Tải Tool Auto Python
@@ -83,37 +127,31 @@
                 <tbody>
                 <tr>
                     <td>Kích thước</td>
-                    <td><span>168.0 KB</span></td>
+                    <td><span>1.2 MB</span></td>
                 </tr>
                 <tr>
                     <td>Phiên bản</td>
-                    <td><span>3.3</span></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
+                    <td><span>1.1</span></td>
                 </tr>
                 </tbody>
             </table>
         </div>
-        <h4>HƯỚNG DẪN SỬ DỤNG TOOL</h4>
-        <strong>Bước 1:</strong> Khi mới tải ứng dụng termux bạn cần setup với các lệnh dưới ( mỗi lệnh 1 dòng ) nếu bạn đã setup trước đó thì lần sau vào tool bạn chỉ cần nhập lệnh khởi động tool ở bước 2:
-        <ul>
-            <li class="text-warning">apt update</li>
-            <li class="text-info">apt upgrade</li>
-            <li class="text-primary">pkg install python</li>
-            <li class="text-danger">termux-setup-storage</li>
-        </ul>
-        <small>Nhập chạy từng dòng! Có lệnh hỏi (y/n) thì nhập y rồi bấm xuống dòng</small>
-        <br>
-        <strong>Bước 2:</strong> Khởi Động Tool Và Chạy Lệnh:
-        <ul>
-            <li class="text-info">cd /sdcard/download && python Ngocv3.3.py</li>
-        </ul>
-        <strong>Lệnh Dành Riêng Cho Termux:</strong><br>
-        <ul>
-            <li class="text-info">. &lt;(curl https://raw.githubusercontent.com/bongocvidai/RunTool/main/setup.sh)</li>
-        </ul>
+        <div class="step-instructions">
+            <h4>HƯỚNG DẪN SỬ DỤNG TOOL</h4>
+            <strong>Bước 1:</strong> Khi mới tải Termux bạn cần setup với các lệnh dưới ( mỗi lệnh 1 dòng ) nếu bạn đã setup trước đó thì lần sau vào tool bạn chỉ cần khởi động tool ở bước 2:
+            <ul>
+                <li class="text-warning">apt update</li>
+                <li class="text-info">apt upgrade</li>
+                <li class="text-primary">pkg install python</li>
+                <li class="text-danger">termux-setup-storage</li>
+            </ul>
+            <small>Nhập chạy từng dòng! Có lệnh hỏi (y/n) thì nhập y rồi bấm xuống dòng</small>
+            <br>
+            <strong>Bước 2:</strong> Khởi Động Tool Và Chạy Lệnh:
+            <ul>
+                <li class="text-info">cd /sdcard/download && python JirayTool.py</li>
+            </ul>
+        </div>
     </center>
 </div>
 
@@ -127,7 +165,7 @@
             if ($this.attr('href').indexOf(current) !== -1) {
                 $this.addClass('active');
             }
-        })
+        });
     });
 </script>
 </body>
